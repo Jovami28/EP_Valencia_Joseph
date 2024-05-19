@@ -7,4 +7,56 @@
     android:layout_height="match_parent"
     tools:context=".MenuCopaActivity">
 
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="329dp"
+        android:layout_height="599dp"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="64dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="287dp"
+            android:layout_height="136dp"
+            app:srcCompat="@drawable/copaamerica"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="37dp" />
+
+        <TextView
+            android:id="@+id/etMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MENU"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="130dp"
+            tools:layout_editor_absoluteY="185dp" />
+
+        <Button
+            android:id="@+id/btPrecio"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="PRIZES"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="267dp" />
+
+        <Button
+            android:id="@+id/btTeams"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="TEAMS"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btPrecio" />
+
+        <Button
+            android:id="@+id/btStadiums"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="STADIUMS"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btTeams" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
