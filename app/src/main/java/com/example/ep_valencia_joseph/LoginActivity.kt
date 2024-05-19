@@ -31,7 +31,7 @@ class LoginActivity : AppCompatActivity() {
 
             if(email == "admin@americancup.com" && pwd=="admin123")
             {
-                val intent = Intent(this, MainActivity::class.java)
+                val intent = Intent(this, MenuCopaActivity::class.java)
                 startActivity(intent)
             }else{
                 Toast.makeText(this,

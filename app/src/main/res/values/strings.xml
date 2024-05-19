@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">EP_Valencia_Joseph</string>
+    <string name="etEmail01">Email Address</string>
+    <string name="etPassword01">Ingrese clave</string>
 </resources>
